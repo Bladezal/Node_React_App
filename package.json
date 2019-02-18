@@ -1,0 +1,22 @@
+{
+    "name": "toolbox",
+    "version": "1.0.0",
+    "description": "ApiRest Node+Express y  app web React+Redux",
+    "main": "server.js",
+    "scripts": {
+        "client": "cd app-web && npm start",
+        "server": "node server.js",
+        "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+    },
+    "author": "Everton Daniel Cazal K.",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "nodemon": "^1.18.10",
+        "yarn": "^1.13.0"
+    },
+    "devDependencies": {
+        "concurrently": "^4.0.1"
+    }
+}
