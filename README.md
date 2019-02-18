@@ -1,6 +1,11 @@
 ## Aplicación React/Redux + server NodeJS con Express
 
-Para instalar las librerias ejecutar el ```npm install```.
+Para instalar las librerias ejecutar 
+```
+npm install
+cd app-web
+npm install
+```
 
 ### Levantar Aplicacion
 
