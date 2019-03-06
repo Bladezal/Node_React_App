@@ -9,4 +9,4 @@ npm install
 
 ### Levantar Aplicacion
 
-Para levantar el server y correr la app solo se debe ejecutar el comando ```npm start```.
+Para levantar el server y correr la app solo se debe ejecutar el comando ```npm start``` fuera del directorio app-web.
